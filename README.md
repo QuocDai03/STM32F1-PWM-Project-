@@ -12,13 +12,15 @@ Here is what my source code do:
 + The percent of PWM is displayed on module LED 7-segment 5 digits.
 
 Details about hardware:
-+ The module LED 7-segment 5 digits is used with IC74HC594.
-++ Pin PB3 is wired to SCK(clock) of IC74HC594
-++ Pin PE0 is wired to RCK(Lath) of IC74HC594
-++ Pin PB5 is wired to SER(Data) of IC74HC594
-++ Pin PE2 is wired to RCL of IC74HC594
+The module LED 7-segment 5 digits is used with IC74HC594.
++ Pin PB3 is wired to SCK(clock) of IC74HC594
++ Pin PE0 is wired to RCK(Lath) of IC74HC594
++ Pin PB5 is wired to SER(Data) of IC74HC594
++ Pin PE2 is wired to RCL of IC74HC594
+
 
 + Pin PB10 has function of adjusting the level of brightness of LED.
 
-+ The USART1 is used: TX: pin PA9; RX: pin PA10.
-++ The software used to send data from PC to microcontroller is "Advance Serial Port Terminal 5.5 by Eltima Software".
+
+The USART1 is used: TX: pin PA9; RX: pin PA10.
++ The software used to send data from PC to microcontroller is "Advance Serial Port Terminal 5.5 by Eltima Software".
